@@ -37,7 +37,7 @@ namespace Tree
 
         private void ChangeUser_Click(object sender, RoutedEventArgs e)
         {
-
+            EnterToAccount win = new EnterToAccount();
         }
 
         private void Registration_Click(object sender, RoutedEventArgs e)
