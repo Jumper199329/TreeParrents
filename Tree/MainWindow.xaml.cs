@@ -38,6 +38,7 @@ namespace Tree
         private void ChangeUser_Click(object sender, RoutedEventArgs e)
         {
             EnterToAccount win = new EnterToAccount();
+            win.ShowDialog();
         }
 
         private void Registration_Click(object sender, RoutedEventArgs e)
